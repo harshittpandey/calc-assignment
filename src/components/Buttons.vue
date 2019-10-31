@@ -50,11 +50,16 @@
       <div class="button" @click="checkNum('.')">
         .
       </div>
-      <div class="button" @click="checkNum('=')">
-        =
+      <div class="button" style="background: red; color: white" @click="checkNum('c')">
+        C
       </div>
-      <div class="button" @click="checkNum('*')">
+      <div class="button" @click="checkNum('+')">
         +
+      </div>
+    </div>
+    <div class="buttonPannel">
+      <div class="button" style="background: forestgreen; color: white" @click="checkNum('=')" >
+        =
       </div>
     </div>
   </div>
